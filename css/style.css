@@ -1,0 +1,245 @@
+
+:root {
+    --main-text-color: white;
+}
+
+body {
+    background-image: url("../images/MicrosoftTeams-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.center {
+    display: flex;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgba(4, 82, 49, 0.60);;
+    width: 65%;
+    height: 90%;
+    flex-direction: column;
+}
+
+.flex-container > div {
+    justify-content: center;
+}
+
+.flex-item1 {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    height: 100%;
+}
+
+.flex-item1 h2 {
+    margin: auto;
+}
+
+.flex-item1 button {
+    margin: auto;
+    width: 25%;
+}
+
+.flex-item1 h2 {
+    height: 50px;
+    color: var(--main-text-color);
+}
+
+.flex-item2 {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    height: 200%;
+}
+
+.flex-item2 h2 {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: var(--main-text-color);
+}
+
+.ui-and-dice {
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.dice-group {
+    display: flex;
+    margin: auto;
+    border: 5px solid black;
+    height: 100%;
+    width: 200%;
+}
+
+.dice-group img {
+    height: 50%;
+    margin: auto;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 5px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.left-side p {
+    font-size: 30px;
+    color: var(--main-text-color);
+    height: 34px;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 5px solid black;
+    height: 100%;
+    width: 100%;
+    justify-content: end;
+}
+
+.right-side p {
+    font-size: 30px;
+    color: var(--main-text-color);
+    height: 34px;
+    margin: auto;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.skill-display-p {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.flex-item3 {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    height: 100%;
+}
+
+.flex-item3 h2 {
+    margin: auto;
+    height: 25px;
+    color: var(--main-text-color);
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    width: 50%;
+    border: 5px solid black;
+}
+
+.btn button {
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+}
+
+/* overlay */
+
+.point-input-overlay {
+    position: fixed;
+    background-color: rgba(129, 15, 15, 0.8);
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+/* inhoud */
+
+.point-input-overlay {
+    color: var(--main-text-color);
+}
+
+.point-input-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+
+.set-skill {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.set-skill img {
+    margin: auto;
+    width: 150px;
+}
+
+.set-skill img:hover {
+    cursor: pointer;
+    background-color: rgb(70, 4, 4);
+}
+
+.skill-count {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.skill-count h2 {
+    margin: auto;
+}
+
+.set-points {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    /* border: 5px solid black; */
+}
+
+.set-points h2 {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.point-input {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50px;
+}
+
+.input-submit {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+}
